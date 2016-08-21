@@ -12,6 +12,7 @@
 		AF3B7E171D68705700FAA9F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF3B7E151D68705700FAA9F3 /* Main.storyboard */; };
 		AF3B7E191D68705700FAA9F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF3B7E181D68705700FAA9F3 /* Assets.xcassets */; };
 		AF3B7E1C1D68705700FAA9F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF3B7E1A1D68705700FAA9F3 /* LaunchScreen.storyboard */; };
+		AF9B3F771D69E6BB00B8FAED /* ToDoListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9B3F761D69E6BB00B8FAED /* ToDoListTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		AF3B7E181D68705700FAA9F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF3B7E1B1D68705700FAA9F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AF3B7E1D1D68705700FAA9F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF9B3F761D69E6BB00B8FAED /* ToDoListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoListTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				AF3B7E181D68705700FAA9F3 /* Assets.xcassets */,
 				AF3B7E1A1D68705700FAA9F3 /* LaunchScreen.storyboard */,
 				AF3B7E1D1D68705700FAA9F3 /* Info.plist */,
+				AF9B3F761D69E6BB00B8FAED /* ToDoListTableViewCell.swift */,
 			);
 			path = ToDo;
 			sourceTree = "<group>";
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF3B7E141D68705700FAA9F3 /* ViewController.swift in Sources */,
+				AF9B3F771D69E6BB00B8FAED /* ToDoListTableViewCell.swift in Sources */,
 				AF3B7E121D68705700FAA9F3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,6 +290,7 @@
 				AF3B7E221D68705700FAA9F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

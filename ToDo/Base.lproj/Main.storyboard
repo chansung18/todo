@@ -86,7 +86,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <color key="backgroundColor" white="1" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="todoListCell" rowHeight="58" id="Mks-9x-VY0">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="todoListCell" rowHeight="58" id="Mks-9x-VY0" customClass="ToDoListTableViewCell" customModule="ToDo" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Mks-9x-VY0" id="4Mx-0H-hzs">
@@ -187,6 +187,10 @@
                                                 </mask>
                                             </variation>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="colorButton" destination="TKX-F5-mct" id="kOQ-DI-2Vk"/>
+                                            <outlet property="titleLabel" destination="eh5-mH-ixT" id="Byc-j2-S65"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                                 <connections>

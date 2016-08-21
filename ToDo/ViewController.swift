@@ -22,10 +22,11 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("todoListCell")
+        let cell = tableView.dequeueReusableCellWithIdentifier("todoListCell") as? ToDoListTableViewCell
         
         cell?.layer.borderWidth = 1.0
-        cell?.textLabel?.text = "Hello?"
+        cell?.colorButton.backgroundColor = UIColor.blueColor()
+        cell?.titleLabel.text = "Hello Message"
         cell?.backgroundColor = UIColor.clearColor()
         
         return cell!
